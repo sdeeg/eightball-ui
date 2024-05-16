@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eightball-ui
+
+app:
+  urls:
+    fqdn: https://eightball-apps.tapv2-proud-quokka.tapsandbox.com/answer?answer-set=codex
+    local: http://eightball:8080/answer?answer-set=codex
+    scg-fqdn: https://soi-gateway.tapv2-proud-quokka.tapsandbox.com/eightball-api/answer?answer-set=codex
+    scg-local: http://soi-gateway/eightball-api/answer?answer-set=codex
