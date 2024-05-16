@@ -2,9 +2,9 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   labels:
-    apps.tanzu.vmware.com/workload-type: server
+    apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: eightball
-  name: eightball-service
+  name: eightball-ui
   namespace: apps
 spec:
   build:
